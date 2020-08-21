@@ -1,0 +1,163 @@
+/*Changing the default color of all elements to black*/
+* {
+    color: black;
+}
+
+/*Select the body tag*/
+body {
+    background: none repeat scroll 0 0 #fff;
+    font-size: small;
+    font-family: arial,sans-serif;
+}
+
+/*Select all anchor tags*/
+a {
+
+}
+
+/*Selct all anchor tags that are hovered on*/
+
+/*Select all anchor tags that have a class of button and are hovered on*/
+
+/* =====================================
+            TOP SECTION NAVIGATION 
+========================================*/
+
+/*Selct any elements with a class of top-navigation*/
+.top-navigation{
+    float: right;
+    margin-right: 25px;
+}
+
+/*Select any elements with a class of top-navigation and find any li tags inside those*/
+.top-navigation li{
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    padding: 0;
+    vertical align: bottom;
+    margin: 5px 5px 0 0;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/*Select any elements with a class of profile-img*/
+.profile-img{
+    border-radius: 25px;
+    height: 32px;
+    width: 32px;
+    position: relative;
+    top: 5px;
+}
+
+/*Select any elements with a class of icon*/
+.icon-img{
+    border-radius: 25px;
+    height: 32px;
+    width: 32px;
+    position: relative;
+    top: 5px;
+}
+
+/* =====================================
+            MIDDLE SECTION 
+========================================*/
+/*Select any elements with a class of search-box then find any img tags inside*/
+.search-box img{
+    padding-top: 150px;
+    display: block;
+    height: 92px; 
+    width: 272px;
+    margin-left: 16%
+
+}
+/*Select any elements with a class of search-box and then find any input tags inside*/
+.search-box input{
+    width: 460px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px soid #d9d9d9;
+    border-radius: 20px;
+    display: block;
+}
+/*Select any elements with a class of search-box and then find any input tags inside that are currently focused*/
+.search-box input:focus{
+    border-color: #f5f5f5;
+}
+/*Select any elements with a class of search-buttons and find all the button tags inside*/
+.search-buttons button{
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 5px;
+    cursor: pointer;
+    height: 36px;
+    line-height: 27px;
+    margin: 22px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #666;
+    display: inline-block;
+
+}
+/*Select any elements with a class of search-buttons and find all buttons tags inside that are hovered on*/
+.search-button button:hover{
+    background-color: #f8f8f8;
+    border: 1 px solid #c6c6c6;
+    box-shadow:0 1px 1px rgba(0,0,0,0.1);
+    color:#333;
+}
+/* =====================================
+        BOTTOM SECTION - SITE LINKS 
+========================================*/
+/* Select any elements with a class of country */
+.country{
+    margin: 0;
+    bottom:0;
+    list-style: none;
+    padding-left: 10px;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    padding: 7px;
+    display: inline-block;
+    
+}
+/*Select any elements with a class of button-site links*/
+.bottom-site-links{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+/*Select any elements with a class of left-side-links*/
+.left-site-links{
+    margin: 0;
+    float: left;
+    padding-left: 10px;
+}
+/*Select any elements with a class of right-site-links*/
+.right-site-links{
+    margin: 0;
+    float: right;
+    padding-right: 10px;
+}
+
+/*Select any elements with a class of left-site-links and find all li tags*/
+.left-site-links li{
+    list-style: none;
+    display: inline-block;
+    padding: 7px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+/*Select any elements with a class of left-site-links and find all li tags*/
+.right-site-links li{
+    list-style: none;
+    display: inline-block;
+    padding: 7px;
+    text-decoration: none;
+}
